@@ -51,7 +51,7 @@ export default function BookAppointment() {
 
     useEffect(() => {
         const fetchDoctors = async () => {
-            const res = await axios.get("http://https://meditrack-t4fq.onrender.com/api/users/doctors", {
+            const res = await axios.get("https://meditrack-su56.onrender.com/api/users/doctors", {
                 headers: { Authorization: `Bearer ${token}` },
             });
             setDoctors(res.data);
