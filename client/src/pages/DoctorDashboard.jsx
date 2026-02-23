@@ -32,7 +32,7 @@ export default function DoctorDashboard() {
 
     const updateStatus = async (id, status) => {
         await axios.put(
-            `http://localhost:5000/api/appointments/${id}`,
+            `https://meditrack-su56.onrender.com/api/appointments/${id}`,
             { status },
             { headers: { Authorization: `Bearer ${token}` } }
         );
