@@ -21,7 +21,7 @@ export default function PatientDashboard() {
         const fetchAppointments = async () => {
             try {
                 const res = await axios.get(
-                    "http://localhost:5000/api/appointments",
+                    "http://https://meditrack-t4fq.onrender.com/api/appointments",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
