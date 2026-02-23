@@ -13,7 +13,7 @@ export default function Login() {
         const form = e.target;
 
         try {
-            const res = await axios.post("http://https://meditrack-t4fq.onrender.com/api/auth/login", {
+            const res = await axios.post("https://meditrack-su56.onrender.com/api/auth/login", {
                 email: form.email.value,
                 password: form.password.value,
             });
