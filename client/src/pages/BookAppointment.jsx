@@ -67,7 +67,7 @@ export default function BookAppointment() {
 
         try {
             await axios.post(
-                "http://localhost:5000/api/appointments",
+                "https://meditrack-su56.onrender.com/api/appointments",
                 { ...form, timeSlot: selectedSlot },
                 { headers: { Authorization: `Bearer ${token}` } }
             );
