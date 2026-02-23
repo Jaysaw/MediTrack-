@@ -13,7 +13,7 @@ export default function Register() {
         const form = e.target;
 
         try {
-            await axios.post("http://localhost:5000/api/auth/register", {
+            await axios.post("http://https://meditrack-t4fq.onrender.com/api/auth/register", {
                 name: form.name.value,
                 email: form.email.value,
                 password: form.password.value,
